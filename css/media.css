@@ -1,0 +1,411 @@
+@media screen and (min-width: 1190px) {
+  .services-item {
+    height: calc(100vh - 83px);
+  }
+}
+@media screen and (min-width: 2000px) {
+  .services-advancement {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+  .services-advancement {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .services-advancement {
+    margin-top: 10px;
+  }
+  .services-advancement .bitcoin-text {
+    font-size: 1.2em;
+  }
+  .bitcoin-title {
+    font-size: 26px;
+  }
+  .services-advancement__item {
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1449px) and (max-width: 1600px) {
+  .services-advancement {
+    margin-top: 10px;
+  }
+  .services-advancement .bitcoin-text {
+    font-size: 1em;
+  }
+  .bitcoin-title {
+    font-size: 26px;
+  }
+  .services-advancement__item {
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1449px) {
+  
+  .services-advancement {
+    margin-top: 10px;
+  }
+  .services-advancement .bitcoin-text {
+    font-size: 0.9em;
+  }
+  .bitcoin-title {
+    font-size: 26px;
+  }
+  .services-advancement__item {
+    padding-top: 10px;
+  }
+  .depiction {
+    width: 90px;
+  }
+  .services-paragraph {
+    bottom: 18%;
+  }
+}
+@media screen and (max-width: 1365px) and (min-width: 1190px) {
+  .services-advancement {
+    margin-top: 0px;
+  }
+  .services-advancement .bitcoin-text {
+    font-size: 0.8em;
+  }
+  .bitcoin-title {
+    font-size: 26px;
+  }
+  .services-advancement__item {
+    padding-top: 10px;
+  }
+  .depiction {
+    width: 70px;
+  }
+  .bitcoin-title {
+    margin-bottom: 5px;
+    word-break: keep-all;
+    white-space: nowrap;
+  }
+  .container-services {
+    width: 70%;
+  }
+  .services-advancement__item:nth-child(1) {
+    margin-left: 13%;
+  }
+  .services-advancement__item:nth-child(2) {
+    margin-left: 16%;
+  }
+  .services-advancement__item:nth-child(3) {
+    margin-left: 19%;
+  }
+  .services-advancement__item:nth-child(4) {
+    margin-left: 22%;
+  }
+  .services-advancement__item:nth-child(5) {
+    margin-left: 25%;
+  }
+  .services-paragraph {
+    bottom: 26%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    padding: 0 40px;
+  }
+  .menu {
+    margin-right: 100px;
+  }
+  .container-reviews {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .services-advancement {
+    padding-left: 20px;
+    padding-right: 150px;
+  }
+  .developer {
+    padding: 0 80px;
+  }
+  .table::before {
+    top: -2px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .menu li a::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: -1px;
+  width: 1px;
+  height: 100%;
+  background: #fff;
+}
+  .services-paragraph {
+    display: none;
+  }
+  .container {
+    min-width: 200px;
+  }
+  .container-services {
+    max-width: 1100px;
+    width: 100%;
+  }
+  header {
+    padding: 0;
+    max-height: 100%;
+    min-height: 80px;
+  }
+  .main-header {
+    flex-direction: column;
+    justify-content: center;
+    background: #000;
+  }
+  .main-header .logo {
+    width: auto;
+    margin: 0 auto;
+  }
+  .main-header nav {
+    width: 100%;
+    display: block;
+  }
+  .main-header nav .menu {
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+  .main-header .menu li {
+    margin: 0;
+  }
+  .services-item {
+    height: auto;
+    min-height: 1200px;
+  }
+  .services-advancement {
+    padding-right: 20px;
+  }
+  .services-advancement__item {
+    padding-right: 80px;
+  }
+  .partners {
+    padding: 0 50px;
+  }
+  .table-one,
+  .table-two {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .table-common .item {
+    max-width: 500px;
+    min-width: 200px;
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .table .plans {
+    text-align: center;
+  }
+  .partners img {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+  }
+  .partners {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .phone {
+    display: none;
+  }
+  .table-common {
+    min-height: 2300px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .table-common {
+    min-height: 3000px;
+  }
+  .reviews-title:before,
+  .reviews-title:after {
+    width: 120px;
+  }
+  .services-paragraph {
+    display: none;
+  }
+  .services-advancement__item:nth-child(1) {
+    margin-left: 10px;
+  }
+  .services-advancement__item:nth-child(2) {
+    margin-left: 30px;
+  }
+  .services-advancement__item:nth-child(3) {
+    margin-left: 50px;
+  }
+  .services-advancement__item:nth-child(4) {
+    margin-left: 70px;
+  }
+  .services-advancement__item:nth-child(5) {
+    margin-left: 90px;
+  }
+  .developer-item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .developer-item {
+    display: block;
+  }
+  .table-common .item {
+    height: 280px;
+  }
+  .social-icons li a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .table .about,
+  .table .plans {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-size: 23px;
+    min-width: 320px;
+    text-align: center;
+  }
+  .table .plans {
+    top: 280px;
+  }
+  .table-one,
+  .table-two {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services-item {
+    min-height: 1745px;
+  }
+  .reviews-title {
+    margin-top: 0;
+  }
+  .contacts-titl {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+  }
+  .social-icons {
+    margin: 0 auto !important;
+    text-align: center;
+  }
+  .social-icons li {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .social-icons li {
+    	margin-right: 20px;
+    	margin-left: 20px;
+	}
+
+}
+@media screen and (max-width: 550px) {
+  .menu li a::after {
+    display: none;
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: -1px;
+  width: 1px;
+  height: 100%;
+  background: #fff;
+}
+  .services-item {
+    min-height: 2120px;
+  }
+  .menu__item a {
+    padding: 0;
+  }
+  .reviews-title {
+    font-size: 45px;
+  }
+  .developer {
+    padding: 0;
+  }
+  .services-advancement__item {
+    margin-left: 0 !important;
+  }
+  .menu__item {
+    padding: 0;
+  }
+  .main-header nav .menu {
+    display: inline-block;
+    text-align: center;
+  }
+  .main-header .menu li {
+    font-size: 20px;
+    margin: 10px 100px;
+    text-align: center;
+    display: inline-block;
+  }
+  .reviews-title::before,
+  .reviews-title::after {
+    display: none;
+  }
+  .table-common .item {
+    min-width: 150px;
+    max-width: 150px;
+    width: 100%;
+  }
+  .table-common .item p {
+    font-size: 16px;
+    word-break: break-all;
+  }
+  .services-advancement {
+    padding: 0;
+  }
+  .services-advancement__item {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .bitcoin-item {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+  .bitcoin-item p {
+    padding: 0 10px;
+  }
+  .bifi-text {
+    text-align: center;
+  }
+  .bifi-title  {
+    text-align: center;
+    
+  }
+  .bifi {
+  	margin: 0;
+  	padding: 0 20px;
+  }
+}
+@media screen and (max-width: 358px) {
+  .services-item {
+    min-height: 2270px;
+  }
+  .menu__item a {
+    padding: 0;
+    font-size: 16px;
+  }
+  .bifi-title  {
+    text-align: center;
+  }
+  .bifi-title  {
+    text-align: center; 
+  }
+  .table-one, .table-two {
+    padding-left: 4px;
+    padding-right: 5px;
+}
+.table .about, .table .plans  {
+	min-width: 243px;
+	}
+}
